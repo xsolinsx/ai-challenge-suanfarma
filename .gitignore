@@ -1,0 +1,7 @@
+*.code-workspace
+**__pycache__**
+.venv
+datasets
+test.py
+*.lst
+results
