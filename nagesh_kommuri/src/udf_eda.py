@@ -38,7 +38,7 @@ def read_bind(fileNames):
     return appended_data
 
 def describe(df):
-    desc_df = df.describe(include = 'all')
+    desc_df = df.describe(include = 'all', datetime_is_numeric=True)
     desc_df.loc['dtype'] = df.dtypes
     desc_df.loc['size'] = len(df)
     desc_df.loc['perc_null'] = df.isnull().mean()*100
