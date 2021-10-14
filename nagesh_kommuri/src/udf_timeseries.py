@@ -42,6 +42,7 @@ def plotMovingAverage(series, window, plot_intervals=False, scale=1.96, plot_ano
             plt.plot(anomalies, "ro", markersize=10)
         
     plt.plot(series[window:], label="Actual values")
+    plt.xticks(np.arange(0, len(series), window))
     plt.legend(loc="upper left")
     plt.grid(True)
 
