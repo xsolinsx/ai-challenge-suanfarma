@@ -1,5 +1,8 @@
+eli5
 jupyter
+lime
 matplotlib==3.4.3
 openpyxl==3.0.9
 pandas==1.3.3
-scikit-learn==1.0
+pycaret[full]
+shap
