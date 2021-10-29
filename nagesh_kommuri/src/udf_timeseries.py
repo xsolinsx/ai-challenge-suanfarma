@@ -10,7 +10,7 @@ def moving_average(series, n):
     """
     return np.average(series[-n:])
 
-def plotMovingAverage(series, window, plot_intervals=False, scale=1.96, plot_anomalies=False):
+def plotMovingAverage(series, name, window, plot_intervals=False, scale=1.96, plot_anomalies=False):
 
     """
         series - dataframe with timeseries
@@ -22,7 +22,7 @@ def plotMovingAverage(series, window, plot_intervals=False, scale=1.96, plot_ano
     rolling_mean = series.rolling(window=window).mean()
 
     plt.figure(figsize=(15,5))
-    plt.title("Moving average\n window size = {}".format(window))
+    plt.title("Moving average for variable {}\n window size = {}".format(name, window))
     plt.plot(rolling_mean, "g", label="Rolling mean trend")
 
     # Plot confidence intervals for smoothed values
