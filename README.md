@@ -1,6 +1,6 @@
 # Industrial AI Challenge - Team 9 work for SUANFARMA
 
-This is the repository that Team 9 used when participating to the Industrial AI Challenge hosted by Hub Inovazione Trentino.
+This is the repository that Team 9 used when participating to the Industrial AI Challenge hosted by Hub Innovazione Trentino.
 
 ## Prepare Environment
 
