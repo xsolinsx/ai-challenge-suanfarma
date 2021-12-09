@@ -1,7 +1,12 @@
-# Rules
+# Industrial AI Challenge - Team 9 work for SUANFARMA
 
-* DO NOT UPLOAD COMPANY DATA ON GITHUB, NEVER!
-* I MEAN IT, ALWAYS DOUBLE CHECK THAT YOU ARE NOT UPLOADING DATASETS OR OTHER COMPANY DATA
-* Create a folder with your name
-* Put your code in that folder as well as the results
-* A README.md file would be appreciated
+This is the repository that Team 9 used when participating to the Industrial AI Challenge hosted by Hub Inovazione Trentino.
+
+## Prepare Environment
+
+- Install Python3
+- Create virtual environment (optional)
+- Install libraries with `pip install -r requirements.txt`
+- Create data folder and put the Parametri ridotti file there
+- Create data/datasets subfolder and put all SUANFARMA files there (single batches + yield file)
+- Start notebooks
